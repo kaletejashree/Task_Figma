@@ -1,0 +1,84 @@
+/*nav bar*/
+.nav-item{
+  padding: 30px;
+  color: white;
+}
+.nav1{
+    color: white;
+    font-family: Inter;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+
+
+}
+
+.btn{
+    width: 148px;
+    height: 59px;
+    top: 39px;
+    left: 1647px;
+    border-radius: 9px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    
+}
+
+.navbar{
+    padding-left: 60px;
+    width: 1920px;
+height: 138px;
+background-color: black;
+
+}
+
+/*container sidebar,section1,section2*/
+.container{
+   
+    padding: 0;
+    font-family: Inter;
+font-size: 40px;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+margin: 30px;
+
+}
+
+/*for the footer*/
+.foot{
+    width: 1920px;
+height: 129px;
+background-color: black;
+color: white;
+margin-top: 12px;
+font-family: Inter;
+font-size: 32px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 30px;
+
+}
+
+
+/*container section3,section4*/
+.container-fluid{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 25px;
+    
+}
+
