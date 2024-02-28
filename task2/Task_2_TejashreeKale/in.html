@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assets/image/css/test.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        
+        <img src="assets/image/shaligram.png" alt="shaligram photo" class="img">
+       <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#"><span class="info" style="color: #05427B;">About Us</span></a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+        <button class="but">Account</button>
+       </nav>
+
+       <section class="first">
+      
+        
+            <img src="assets/image/girl.png" alt="girl">
+            <div class="text1"> LITTLE MORE ABOUT US</div><br>
+            <div class="text2">YOUR KIDS IS OUR FUTURE</div><br>
+            <div class="text3">Lorem ipsum dolor sit 
+                amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua.</div><br><br>
+            
+        
+                <button class="butt">Read More</button>
+            </div>
+       </section>
+
+       <section class="second">
+
+        <div class="free1"><br>
+            <div class="tx1">Free Classes</div>
+            <div class="line"></div>
+                <p>
+                    Ut enim ad cupidatat non proident, sunt mollit anim id est laborum. consectetur ... Ut Excepteur sint occaecat minim veniam, quis nostrud in culpa qui officia deserunt.
+                </p>
+        </div>
+
+        <div class="free2"><br>
+            <div class="tx1">Free Classes</div>
+            <div class="line"></div>
+                <p>
+                    Ut enim ad cupidatat non proident, sunt mollit anim id est laborum. consectetur ... Ut Excepteur sint occaecat minim veniam, quis nostrud in culpa qui officia deserunt.
+                </p>
+        </div>
+
+        <div class="free3"><br>
+            <div class="tx1">Free Classes</div>
+            <div class="line"></div>
+                <p>
+                    Ut enim ad cupidatat non proident, sunt mollit anim id est laborum. consectetur ... Ut Excepteur sint occaecat minim veniam, quis nostrud in culpa qui officia deserunt.
+                </p>
+        </div>
+
+        <div class="free4"><br>
+            <div class="tx1">Free Classes</div>
+            <div class="line"></div>
+                <p>
+                    Ut enim ad cupidatat non proident, sunt mollit anim id est laborum. consectetur ... Ut Excepteur sint occaecat minim veniam, quis nostrud in culpa qui officia deserunt.
+                </p>
+        </div>
+       </section>
+
+       <section class="third">
+        <br><br>
+        <div class="txt1">
+            Best Classes and Camps
+        </div>
+        <br><br>
+        <div class="txt2">
+            Quam quisque id diam vel quam elementum. Vestibulum lectus mauris ultrices eros in cursus turpis 
+massa tincidunt. Pellentesque habitant morbi tristique senectus et netus.
+        </div>
+
+      <div class="row">
+        <div class="col1">
+            <div>One-of-a-kind Classes</div>
+            <img src="assets/image/img1.png" alt="img1" class="im">
+        </div>
+        <div class="col2">
+            <div>Summer Camps</div>
+            <img src="assets/image/img2.png" alt="img2" class="im">
+        </div>
+        <div class="col3">
+            <div>Summer Camps</div>
+            <img src="assets/image/img3.png" alt="img3" class="im">
+        </div>
+      </div>
+
+    
+       </section>
+
+
+       
+        <section class="fourth">
+            <br>
+            <p>We offer great <span>price</span> plan for the application</p>
+    
+            <br>
+          <!--  <div class="year">
+            <div class="pdw">monthly
+                <button class="bnt">yearly</button>
+            </div>-->
+       <!--   <center>
+            <label class="switch">
+                <input type="checkbox" id="togBtn">
+                <div class="slider round">
+                
+                 <span class="on">Monthly</span>
+                 <span class="off">yearly</span>
+        
+                </div>
+               </label>
+            </center>-->
+<center>
+            <div class="tab">
+                <button class="tablinks" onclick="Rupees(event, 'monthly')">Monthly</button>
+                <button class="tablinks" onclick="Rupees(event, 'yearly')">yearly</button>
+               
+              </div>
+              
+              
+              <div id="monthly" class="tabcontent">
+                <h2>800</h2>
+               </div>
+
+              <div id="yearly" class="tabcontent">
+               <h2>300</h2>
+              </div>
+              
+              </center>
+              
+              <script>
+              function Rupees(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = " ";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+              }
+              </script>
+            
+            <br>
+
+        </div>
+              <div class="fivemain">
+                <div class="f1">
+                    <br><br>
+                    <div class="p1">Starter</div><br><br>
+                    <div class="t1">Starter pack to help you to get started</div>
+                    <div class="free"><b>Free</b></div><br>
+                    <button class="btt">Get Started</button>
+                </div>
+            
+                <div class="f2">
+                    <div class="fi">
+                        <b>Recommonded</b>
+                      </div>
+                    <div class="p1">Pro</div><br><br>
+                    <div class="t1">More power for small teams create project plans with confidence</div>
+                    <div class="free"><small>$</small><b>20</b>/months</div>
+                    <button class="btto" >Get Started</button>
+                </div>
+
+                <div class="f3">
+                    <br><br>
+                    <div class="p1">Business+</div><br><br>
+                    <div class="t1">For companies that need to manage work happening across multiple teams.</div>
+                    <div class="free"><small>$</small><b>100</b>/month</div>
+                    <button class="btt">Get Started</button>
+                </div>
+
+                <div class="f4">
+                    <br><br>
+                    <div class="p1">Enterprises</div><br><br>
+                    <div class="t1">For enterprise that need additional security, control, and support.</div>
+                    <div class="free"><b>Custom</b></div>
+                    <button class="btt">Contact Sales</button>
+                </div>
+              </div>
+       
+        </section>
+    
+
+
+    <section class="fifth">
+        <div class="aa">Call To Action</div>
+        <div class="bb">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam voluptatibus voluptas, at eligendi beatae dolore tempore placeat a ad facere quia, praesentiu</div>
+        <button class="bt">Get Started</button>
+    </section>
+
+    <section class="six">
+
+        <div class="sixmain">
+        <div class="foot">
+            <div><img src="assets/image/new.png" alt="new"></div>
+            <div class="textp">
+                
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam voluptatibus voluptas, at eligendi beatae dolore tempore placeat a ad facere quia, praesentiu
+            </div>
+        </div>
+        
+        <div class="foot2">
+        <div class="texta">Subscribe to our newsletter</div>
+        <br><br>
+        <div class="pd">Enter your mail
+            <button class="bn">Subscribe</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot1">
+            Copyright © 2024  -  Shaligraminfotech
+        </div>
+ 
+        <div class="socialmedia">
+                            <a href="#" class="fa fa-whatsapp"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                    
+                                    
+        </div>
+    </div>
+        </section> 
+        
+        <!--            ------------------------------------------------------------         -->
+<section class="sev">
+    <div class="section4">
+
+        <div class="section4_content">
+            
+    
+            <div class="s4_l1"><p>We offer great <span class="highlight">price</span> plan for the application</p></div>
+    
+    
+    
+            <!-- toggle button -->
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round" onClick="change()"></span>
+            </label>
+    
+    
+    
+            <!--grid 1-->
+            <div class="section4_grid " id="grid1">
+    
+                <div class="s4item">
+    
+                    <div class="content">
+    
+                        <div class="s4heading">
+                            <p clas="s1p1">Starter</p>
+                            <p class="s2p2">Starter pack to help you to get started.</p>
+                        </div>
+    
+                        <div class="price">
+                            <p class="space">
+                            <span style="font-size:38px;font-style:bold;" class="p1">
+                                Free
+                            </span>
+                            <span class="p1_time">
+    
+                            </span></p>
+                        
+                        </div>
+                        
+                        <div class="s4button">
+                            <a href="#">Get Started</a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="s4item even1">
+                    <div class="content">
+                        <div class="recommended">Recommended</div> 
+    
+                        <div class="s4heading">
+                            <p class="s1p1">Pro</p>
+                            <p class="s2p2">More power for small teams create project plans with confidence</p>
+                        </div>
+                        <div class="price">
+                            <p><span style="font-size:38px;font-style:bold;">$20</span>/month</p>
+                        </div>
+                        <div class="dark">
+                            <a href="#">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+    
+                <div class="s4item"> 
+                    <div class="content">
+    
+                        <div class="s4heading">
+                            <p clas="s1p1">Business +</p>
+                            <p class="s2p2">For companies that need to manage work happening across multiple teams.</p>
+                        </div>
+    
+                        <div class="price">
+                            <p><span style="font-size:38px;font-style:bold;">$100</span>/month</p>
+                        </div>
+                        
+                        <div class="s4button">
+                            <a href="#">Get Started</a>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="s4item even2" id="border">
+                         <div class="content">
+    
+                        <div class="s4heading">
+                            <p clas="s1p1">Enterprise</p>
+                            <p class="s2p2">For enterprise that need additional security, control, and support.</p>
+                        </div>
+    
+                        <div class="price">
+                            <p><span style="font-size:38px;font-style:bold;">Custom</span></p>
+                        </div>
+                        
+                        <div class="s4button">
+                            <a href="#">Contact Sales</a>
+                        </div>
+    
+                    </div>
+                </div>   
+            </div>
+    
+            <!--grid 2-->
+            <!--
+            used hidden bcoz initially the grid 2 will be hidden
+            and when user clicks toggle jsfunction is called 
+            which then adds hidden class to grid1 due to which grid 1 will be hidden and grid 2 will be displayed -->
+            <div class="section4_grid  hidden" id="grid2">
+    
+                <div class="s4item">
+    
+                    <div class="content">
+    
+                        <div class="s4heading">
+                            <p clas="s1p1">Starter</p>
+                            <p class="s2p2">Starter pack to help you to get started.</p>
+                        </div>
+    
+                        <div class="price">
+                            <p class="space">
+                            <span style="font-size:38px;font-style:bold;" class="p1">
+                                $50
+                            </span>
+                            <span class="p1_time">
+                                /year
+                            </span></p>
+                        
+                        </div>
+                        
+                        <div class="s4button">
+                            <a href="#">Get Started</a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="s4item even1">
+                    <div class="content">
+                        <div class="recommended">Recommended</div> 
+    
+                        <div class="s4heading">
+                            <p class="s1p1">Pro</p>
+                            <p class="s2p2">More power for small teams create project plans with confidence</p>
+                        </div>
+                        <div class="price">
+                            <p><span style="font-size:38px;font-style:bold;">$150</span>/year</p>
+                        </div>
+                        <div class="dark">
+                            <a href="#">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+    
+                <div class="s4item"> 
+                    <div class="content">
+    
+                        <div class="s4heading">
+                            <p clas="s1p1">Business +</p>
+                            <p class="s2p2">For companies that need to manage work happening across multiple teams.</p>
+                        </div>
+    
+                        <div class="price">
+                            <p><span style="font-size:38px;font-style:bold;">$200</span>/year</p>
+                        </div>
+                        
+                        <div class="s4button">
+                            <a href="#">Get Started</a>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="s4item even2">
+                         <div class="content">
+    
+                        <div class="s4heading">
+                            <p clas="s1p1">Enterprise</p>
+                            <p class="s2p2">For enterprise that need additional security, control, and support.</p>
+                        </div>
+    
+                        <div class="price">
+                            <p><span style="font-size:38px;font-style:bold;">$250</span>/year</p>
+                        </div>
+                        
+                        <div class="s4button">
+                            <a href="#">Contact Sales</a>
+                        </div>
+    
+                    </div>
+                </div>   
+            </div>
+    
+        </div>
+    
+    
+    </div>
+
+    <script>
+        function change() {
+    var switchToggle = document.querySelector('.switch input');
+    var grid1 = document.getElementById('grid1');
+    var grid2 = document.getElementById('grid2');
+
+    if (switchToggle.checked) {
+        grid1.classList.remove('hidden');
+        grid2.classList.add('hidden');
+    } else {
+ 
+        grid1.classList.add('hidden');
+        grid2.classList.remove('hidden');
+    }
+}
+
+    </script>
+    
+</section>
+
+</body>
+</html>
