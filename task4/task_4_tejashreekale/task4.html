@@ -1,0 +1,526 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        Layout
+    </title> 
+    <meta name='viewport' content='width=device-width, initial-scale=1'>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css  ">
+    <link href= 
+"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"rel="stylesheet" integrity= "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"crossorigin="anonymous">
+            
+            
+<link rel="stylesheet" href="assets/test4.css">
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity= "sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"> </script> 
+      
+    <script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity= "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"> 
+    </script> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head> 
+<body>
+
+
+<!--  side bar content -->                  
+    <div class="nav-side ">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-black bg-white" style="width: 345px;height: 1220px;float: left;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+           <img src="assets/logo.png" alt="logo">
+                
+          <span class="fs-4 ml-4">Dabang</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active rounded" aria-current="page">
+                <!--<i class="fa-regular fa-chart-pie-simple" style="height: 16;width: 16;"></i>-->
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_81_258" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+                    <rect width="32" height="32" fill="white"/>
+                    </mask>
+                    <g mask="url(#mask0_81_258)">
+                    <path d="M13.6704 7.84582L14.0416 13.3658L14.2259 16.1402C14.2279 16.4255 14.2726 16.709 14.3588 16.9814C14.5814 17.5102 15.1168 17.8462 15.6994 17.8227L24.5756 17.242C24.96 17.2358 25.3312 17.3795 25.6075 17.6418C25.8378 17.8603 25.9864 18.1462 26.0334 18.4536L26.0491 18.6403C25.6818 23.7266 21.9462 27.969 16.8704 29.064C11.7946 30.1591 6.58971 27.8458 4.08151 23.3799C3.35842 22.0824 2.90677 20.6564 2.75307 19.1854C2.68887 18.7499 2.66061 18.31 2.66854 17.87C2.66061 12.417 6.54386 7.70265 11.9797 6.56613C12.6339 6.46425 13.2753 6.8106 13.5376 7.40741C13.6055 7.54562 13.6503 7.69365 13.6704 7.84582Z" fill="white"/>
+                    <path opacity="0.4" d="M29.3335 13.083L29.3241 13.1265L29.2972 13.1897L29.3009 13.3632C29.2871 13.5929 29.1983 13.814 29.0455 13.9926C28.8861 14.1786 28.6685 14.3053 28.4289 14.3545L28.2828 14.3745L18.0417 15.0381C17.7011 15.0717 17.3619 14.9618 17.1087 14.736C16.8975 14.5476 16.7625 14.2934 16.7244 14.0196L16.0371 3.79337C16.0251 3.7588 16.0251 3.72132 16.0371 3.68673C16.0464 3.40485 16.1705 3.13841 16.3816 2.94693C16.5925 2.75545 16.8731 2.65489 17.1601 2.66772C23.24 2.8224 28.3499 7.19435 29.3335 13.083Z" fill="white"/>
+                    </g>
+                    </svg>
+                    
+               Dashboard
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-black">
+                <svg width="34" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33 10.3334L22.3333 19.6667L17 14.3334L9 21" stroke="#737791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+              Leaderboard
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-black">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 4H6.66667L7.2 6.66667M9.33333 17.3333H22.6667L28 6.66667H7.2M9.33333 17.3333L7.2 6.66667M9.33333 17.3333L6.27614 20.3905C5.43619 21.2305 6.03108 22.6667 7.21895 22.6667H22.6667M22.6667 22.6667C21.1939 22.6667 20 23.8606 20 25.3333C20 26.8061 21.1939 28 22.6667 28C24.1394 28 25.3333 26.8061 25.3333 25.3333C25.3333 23.8606 24.1394 22.6667 22.6667 22.6667ZM12 25.3333C12 26.8061 10.8061 28 9.33333 28C7.86057 28 6.66667 26.8061 6.66667 25.3333C6.66667 23.8606 7.86057 22.6667 9.33333 22.6667C10.8061 22.6667 12 23.8606 12 25.3333Z" stroke="#737791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                   <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+              Order
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-black">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25.3333 8.00004H22.6667C22.6667 4.26671 19.7333 1.33337 16 1.33337C12.2667 1.33337 9.33333 4.26671 9.33333 8.00004H6.66667C5.2 8.00004 4 9.20004 4 10.6667V26.6667C4 28.1334 5.2 29.3334 6.66667 29.3334H25.3333C26.8 29.3334 28 28.1334 28 26.6667V10.6667C28 9.20004 26.8 8.00004 25.3333 8.00004ZM16 4.00004C18.2667 4.00004 20 5.73337 20 8.00004H12C12 5.73337 13.7333 4.00004 16 4.00004ZM25.3333 26.6667H6.66667V10.6667H25.3333V26.6667ZM16 16C13.7333 16 12 14.2667 12 12H9.33333C9.33333 15.7334 12.2667 18.6667 16 18.6667C19.7333 18.6667 22.6667 15.7334 22.6667 12H20C20 14.2667 18.2667 16 16 16Z" fill="#737791"/>
+                    </svg>
+                   <!--<i class="fa-solid fa-bag-shopping"></i>-->
+              Product
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-black" >
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28 26.6666H4V6.66663" stroke="#737791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M28 9.33337L17.3333 18.6667L12 13.3334L4 20" stroke="#737791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+              Sales Report
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-black">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.6666 2.66669H5.33329C3.86663 2.66669 2.66663 3.86669 2.66663 5.33335V29.3334L7.99996 24H26.6666C28.1333 24 29.3333 22.8 29.3333 21.3334V5.33335C29.3333 3.86669 28.1333 2.66669 26.6666 2.66669ZM26.6666 21.3334H6.93329L5.33329 22.9334V5.33335H26.6666V21.3334ZM22.6666 14.6667H20V12H22.6666V14.6667ZM17.3333 14.6667H14.6666V12H17.3333V14.6667ZM12 14.6667H9.33329V12H12" fill="#737791"/>
+                    </svg>
+                    <!--<i class="fa-regular fa-message"></i>-->
+              Messages
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-black">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 10.6667C17.4145 10.6667 18.7711 11.2286 19.7713 12.2288C20.7714 13.229 21.3334 14.5855 21.3334 16C21.3334 17.4145 20.7714 18.7711 19.7713 19.7713C18.7711 20.7715 17.4145 21.3334 16 21.3334C14.5855 21.3334 13.229 20.7715 12.2288 19.7713C11.2286 18.7711 10.6667 17.4145 10.6667 16C10.6667 14.5855 11.2286 13.229 12.2288 12.2288C13.229 11.2286 14.5855 10.6667 16 10.6667ZM16 13.3334C15.2928 13.3334 14.6145 13.6143 14.1144 14.1144C13.6143 14.6145 13.3334 15.2928 13.3334 16C13.3334 16.7073 13.6143 17.3855 14.1144 17.8856C14.6145 18.3857 15.2928 18.6667 16 18.6667C16.7073 18.6667 17.3855 18.3857 17.8856 17.8856C18.3857 17.3855 18.6667 16.7073 18.6667 16C18.6667 15.2928 18.3857 14.6145 17.8856 14.1144C17.3855 13.6143 16.7073 13.3334 16 13.3334ZM13.3334 29.3334C13 29.3334 12.72 29.0934 12.6667 28.7734L12.1734 25.24C11.3334 24.9067 10.6134 24.4534 9.92002 23.92L6.60002 25.2667C6.30669 25.3734 5.94669 25.2667 5.78669 24.9734L3.12002 20.36C3.03841 20.2226 3.00964 20.0602 3.03909 19.9032C3.06854 19.7461 3.15419 19.6052 3.28002 19.5067L6.09335 17.2934L6.00002 16L6.09335 14.6667L3.28002 12.4934C3.15419 12.3949 3.06854 12.2539 3.03909 12.0969C3.00964 11.9398 3.03841 11.7774 3.12002 11.64L5.78669 7.02669C5.94669 6.73335 6.30669 6.61335 6.60002 6.73335L9.92002 8.06669C10.6134 7.54669 11.3334 7.09335 12.1734 6.76002L12.6667 3.22669C12.72 2.90669 13 2.66669 13.3334 2.66669H18.6667C19 2.66669 19.28 2.90669 19.3334 3.22669L19.8267 6.76002C20.6667 7.09335 21.3867 7.54669 22.08 8.06669L25.4 6.73335C25.6934 6.61335 26.0534 6.73335 26.2134 7.02669L28.88 11.64C29.0534 11.9334 28.9734 12.2934 28.72 12.4934L25.9067 14.6667L26 16L25.9067 17.3334L28.72 19.5067C28.9734 19.7067 29.0534 20.0667 28.88 20.36L26.2134 24.9734C26.0534 25.2667 25.6934 25.3867 25.4 25.2667L22.08 23.9334C21.3867 24.4534 20.6667 24.9067 19.8267 25.24L19.3334 28.7734C19.28 29.0934 19 29.3334 18.6667 29.3334H13.3334ZM15 5.33335L14.5067 8.81335C12.9067 9.14669 11.4934 10 10.4667 11.1867L7.25335 9.80002L6.25335 11.5334L9.06669 13.6C8.53335 15.1556 8.53335 16.8445 9.06669 18.4L6.24002 20.48L7.24002 22.2134L10.48 20.8267C11.5067 22 12.9067 22.8534 14.4934 23.1734L14.9867 26.6667H17.0134L17.5067 23.1867C19.0934 22.8534 20.4934 22 21.52 20.8267L24.76 22.2134L25.76 20.48L22.9334 18.4134C23.4667 16.8534 23.4667 15.16 22.9334 13.6L25.7467 11.5334L24.7467 9.80002L21.5333 11.1867C20.4856 9.97378 19.0645 9.14359 17.4934 8.82669L17 5.33335H15Z" fill="#737791"/>
+                    </svg>
+                    <!--<i class="fa-solid fa-gear"></i>-->
+              Setting
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-black">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.7747 22.2011L26.3371 16.8777C26.555 16.6292 26.6665 16.3154 26.6666 16C26.6667 15.7842 26.6147 15.5676 26.5091 15.3706C26.4621 15.2828 26.4047 15.1994 26.3371 15.1223L21.7747 9.79894C21.2955 9.23982 20.4538 9.17502 19.8947 9.65422C19.3356 10.1334 19.2708 10.9751 19.75 11.5343L22.4345 14.6666L12.1083 14.6666C11.3719 14.6666 10.775 15.2636 10.775 15.9999C10.775 16.7363 11.3719 17.3333 12.1083 17.3333L22.4347 17.3333L19.75 20.4658C19.2708 21.0249 19.3356 21.8666 19.8947 22.3458C20.4538 22.825 21.2955 22.7602 21.7747 22.2011ZM13.3333 7.99992C14.0697 7.99992 14.6666 8.59687 14.6666 9.33325L14.6666 11.3333C14.6666 12.0696 15.2636 12.6666 16 12.6666C16.7363 12.6666 17.3333 12.0696 17.3333 11.3333L17.3333 9.33325C17.3333 7.12411 15.5424 5.33325 13.3333 5.33325L9.33329 5.33325C7.12415 5.33325 5.33329 7.12411 5.33329 9.33325L5.33329 22.6666C5.33329 24.8757 7.12415 26.6666 9.33329 26.6666L13.3333 26.6666C15.5424 26.6666 17.3333 24.8757 17.3333 22.6666L17.3333 20.6666C17.3333 19.9302 16.7363 19.3333 16 19.3333C15.2636 19.3333 14.6666 19.9302 14.6666 20.6666L14.6666 22.6666C14.6666 23.403 14.0697 23.9999 13.3333 23.9999L9.33329 23.9999C8.59691 23.9999 7.99996 23.403 7.99996 22.6666L7.99996 9.33325C7.99996 8.59687 8.59691 7.99992 9.33329 7.99992L13.3333 7.99992Z" fill="#737791"/>
+                    </svg>
+                    <!--<i class="fa-solid fa-right-from-bracket"></i>-->
+              Sign out
+            </a>
+          </li>
+        </ul>
+        <hr>
+
+        <!--left last photo-->
+        <div class="sidebar ">
+            
+            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="48" height="48" rx="16" fill="white"/>
+                <path d="M18.5514 14.1968C17.4193 15.3498 17.4193 17.2157 18.5724 18.3688L21.0881 20.8845C23.4572 23.2536 23.4572 27.1111 21.0881 29.4801L16.4759 24.8679C15.2914 23.6833 14.6939 22.1215 14.6939 20.5701C14.6939 19.0187 15.2914 17.4568 16.4759 16.2723L18.52 14.2282C18.5304 14.2177 18.5409 14.2073 18.5514 14.1968Z" fill="#5D5FEF"/>
+                <path d="M20.564 20.3593L18.5723 18.3677C17.4192 17.2146 17.4088 15.3592 18.5513 14.1957C19.6834 13.0845 21.4864 13.1055 22.608 14.2271C23.1741 14.7932 23.4571 15.5374 23.4571 16.2712C23.4571 17.0049 23.1741 17.7492 22.608 18.3152L22.1363 18.787" fill="#5D5FEF"/>
+                <path d="M30.4486 34.794C31.5807 33.6409 31.5807 31.775 30.4277 30.622L27.9119 28.1062C25.5429 25.7372 25.5429 21.8796 27.9119 19.5106L32.5241 24.1229C33.7086 25.3074 34.3061 26.8693 34.3061 28.4207C34.3061 29.9721 33.7086 31.5339 32.5241 32.7184L30.4801 34.7625C30.4591 34.7835 30.4486 34.794 30.4486 34.794Z" fill="#5D5FEF"/>
+                <path d="M28.4251 28.6407L30.4167 30.6324C31.5698 31.7855 31.5803 33.6408 30.4377 34.8044C29.3056 35.9155 27.5026 35.8946 26.381 34.773C25.8149 34.2069 25.5319 33.4627 25.5319 32.7289C25.5319 31.9951 25.8149 31.2509 26.381 30.6848L26.8632 30.2026" fill="#5D5FEF"/>
+                </svg>
+                <br>
+                <div class="p1">Dabang Pro</div><br>
+                <div class="p2">Get access to all features on tetumbas</div>
+                <button type="button" class="btn btn-light">Get Started</button>
+                  
+        </div>
+       
+      </div>  
+    
+
+
+      <!--Navbar-->
+    <div class="pos-f-t">
+        <nav class="navbar navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+           <!--search button and the bell icon-->
+          <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 pr-4" type="search" placeholder="Search Here" aria-label="Search">
+            <i class="fa-solid fa-bell mr-2" style="color: #FFA412;font-size: 26px;" data-count="22"></i>
+            
+            <!--profile image-->
+            <img src="assets/profile.png" style="width: 50px; width: 50px;"> 
+            <div class="profilename ml-2 mt-2">
+                <h4>Musfiq
+                    <p>Admin</p>
+                </h4>
+            </div>
+
+          
+           
+            <!--drop down menu-->
+            <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-menu"></button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" type="button">profile</a>
+                <a class="dropdown-item disabled" type="button">My account</a>
+                <a class="dropdown-item" type="button">logout</a>
+            </div>
+          </form>
+        </nav>
+    </div>
+       
+             <!--contain collapsed items-->
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Navbar</h5>
+          <span class="text-muted">Welcome to the website.</span>
+        </div>
+     </div>
+    </div>
+  
+<!--middle section-->
+
+<div class="mainSection">
+
+    <div class="firstrow">
+    <!--first div-->
+    <div class="todaySale">
+        <button type="button" class="btn btn-light" style="float: right; margin-right: 20px;"><i class="fa-solid fa-upload"></i>Export</button>
+        <div class="text1">Today's Sales</div>
+        <div class="text2">Sales Summery</div>
+
+        <!--cards-->
+        <div class="cards">
+             
+              <div class="card1">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#FA5A7D"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 11C11.8954 11 11 11.8954 11 13V27C11 28.1046 11.8954 29 13 29H27C28.1046 29 29 28.1046 29 27V13C29 11.8954 28.1046 11 27 11H13ZM16 21C16 20.4477 15.5523 20 15 20C14.4477 20 14 20.4477 14 21V25C14 25.5523 14.4477 26 15 26C15.5523 26 16 25.5523 16 25V21ZM20 17C20.5523 17 21 17.4477 21 18V25C21 25.5523 20.5523 26 20 26C19.4477 26 19 25.5523 19 25V18C19 17.4477 19.4477 17 20 17ZM26 15C26 14.4477 25.5523 14 25 14C24.4477 14 24 14.4477 24 15V25C24 25.5523 24.4477 26 25 26C25.5523 26 26 25.5523 26 25V15Z" fill="white"/>
+                    </svg><br><br>
+                 <div class="c1">$1k</div><br>
+                 <div class="c2">Total Sales</div>
+                 <div class="c3">+8% from yesterday</div>
+              </div>
+    
+
+              <div class="card1" style="background: #FFF4DE;">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#FF947A"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 14C12 11.7909 13.7909 10 16 10H22V14C22 16.2091 23.7909 18 26 18H28V26C28 28.2091 26.2091 30 24 30H16C13.7909 30 12 28.2091 12 26V14ZM16 19C15.4477 19 15 19.4477 15 20C15 20.5523 15.4477 21 16 21H18C18.5523 21 19 20.5523 19 20C19 19.4477 18.5523 19 18 19H16ZM16 23C15.4477 23 15 23.4477 15 24C15 24.5523 15.4477 25 16 25H20C20.5523 25 21 24.5523 21 24C21 23.4477 20.5523 23 20 23H16ZM24.6818 12.1988L24.5509 14.1629C24.5106 14.7666 25.0115 15.2674 25.6152 15.2272L27.5792 15.0962C28.4365 15.0391 28.8274 13.9989 28.2198 13.3913L26.3867 11.5582C25.7792 10.9507 24.7389 11.3415 24.6818 12.1988Z" fill="white"/>
+                    </svg><br><br>
+                 <div class="c1">300</div><br>
+                 <div class="c2">Total Order</div>
+                 <div class="c3">+5% from yesterday</div>
+              </div>
+
+
+              <div class="card1" style="background: #DCFCE7;">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#3CD856"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.6261 13.2653L21.3263 13.7367C20.8222 13.8087 20.4103 14.049 20.1162 14.3811L12.4167 22.0806C11.6357 22.8616 11.6357 24.1279 12.4167 24.909L15.2452 27.7374C16.0263 28.5185 17.2925 28.5185 18.0736 27.7374L25.773 20.038C26.1051 19.7439 26.3454 19.332 26.4174 18.8279L26.8888 15.528C27.0775 14.2081 25.946 13.0767 24.6261 13.2653ZM22.3162 17.8379C22.7067 18.2284 23.3399 18.2285 23.7305 17.8379C24.121 17.4474 24.1209 16.8142 23.7305 16.4237C23.34 16.0332 22.7068 16.0332 22.3162 16.4237C21.9257 16.8142 21.9257 17.4474 22.3162 17.8379Z" fill="white"/>
+                    </svg><br><br>
+                 <div class="c1">5</div><br>
+                 <div class="c2">Product Sales</div>
+                 <div class="c3">+1,2% from yesterday</div>
+              </div>
+
+              <div class="card1" style="background: #F3E8FF;">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#BF83FF"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 16C22 18.2091 20.2091 20 18 20C15.7909 20 14 18.2091 14 16C14 13.7909 15.7909 12 18 12C20.2091 12 22 13.7909 22 16ZM18 21C14.134 21 11 23.2386 11 26C11 27.1046 11.8954 28 13 28H23C24.1046 28 25 27.1046 25 26C25 23.2386 21.866 21 18 21ZM26 14C26.5523 14 27 14.4477 27 15V16H28C28.5523 16 29 16.4477 29 17C29 17.5523 28.5523 18 28 18H27V19C27 19.5523 26.5523 20 26 20C25.4477 20 25 19.5523 25 19V18H24C23.4477 18 23 17.5523 23 17C23 16.4477 23.4477 16 24 16H25V15C25 14.4477 25.4477 14 26 14Z" fill="white"/>
+                    </svg><br><br>
+                 <div class="c1">8</div><br>
+                 <div class="c2">New Customer</div>
+                 <div class="c3">0,5% from yesterday</div>
+              </div>
+
+        </div>
+       
+    </div>
+    
+
+    <!--second div visitor-->
+         <div class="visitor">
+               <div class="textv1">Visitor Insights</div>
+               <br>
+               <div class="parentDiv"> 
+        
+                <!--display for the all div is block-->
+                <div style="background: #5D5FEF; color:white;border-radius: 5px; padding: 8px;"> 
+                    <span class="textv">Lorem Ipsum</span> 
+                    <span class="icon"> 
+                      <i class="fa-solid fa-caret-down" style="margin-right: 10px;"></i>
+                    </span> 
+                </div> 
+              </div>
+    
+              <div class="parentDiv2"> 
+        
+                <!--display for the all div is block-->
+                <div style="background: #5D5FEF; color:white;border-top-left-radius: 5px;border-top-right-radius: 5px; padding: 8px;"> 
+                    <span class="textv">Lorem Ipsum</span> 
+                    <span class="icon"> 
+                      <i class="fa-solid fa-caret-up"style="margin-right: 10px;"></i>
+                    </span> 
+                    
+                </div> 
+                <div class="textv2">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in 
+a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
+looked up one of the more obscure Latin words, consectetu
+                </div>
+              </div>
+              
+          </div> 
+
+
+ </div>
+<!--second row-->
+<div class="secondrow">
+    <div class="visitorlist">
+        <div class="textv1">Visitor List</div><br>
+        <table class="table" >
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Join Date</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">01</th>
+                <td>Stephen P. Osborn</td>
+                <td>17 Jan, 2023</td>
+                <td><a href="#"><i class="fa-solid fa-pencil"></i></a>
+                  <a href="#"><i class="fa-solid fa-trash" style="color: red;"></i></a></td>
+              </tr>
+              <tr>
+                <th scope="row">02</th>
+                <td>Odessa G. Mettler</td>
+                <td>13 Feb, 2023</td>
+                <td><a href="#"><i class="fa-solid fa-pencil"></i></a>
+                  <a href="#"><i class="fa-solid fa-trash" style="color: red;"></i></a></td>
+              </tr>
+              <tr>
+                <th scope="row">03</th>
+                <td>Judith H. Richards</td>
+                <td>13 Feb, 2023</td>
+                <td><a href="#"><i class="fa-solid fa-pencil"></i></a>
+                  <a href="#"><i class="fa-solid fa-trash" style="color: red;"></i></a></td>
+              </tr>
+              <tr>
+                <th scope="row">04</th>
+                <td>Jack B. Perez</td>
+                <td>10 Feb, 2023</td>
+                <td><a href="#"><i class="fa-solid fa-pencil"></i></a>
+                  <a href="#"><i class="fa-solid fa-trash" style="color: red;"></i></a></td>
+              </tr>
+              <tr>
+                <th scope="row">05</th>
+                <td>Chris B. Ryant</td>
+                <td>10 Feb, 2023</td>
+                <td><a href="#"><i class="fa-solid fa-pencil"></i></a>
+                  <a href="#"><i class="fa-solid fa-trash" style="color: red;"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="but" style="color: #5D5FEF;text-align: center;">Read More</p>
+    </div>
+
+    <!--second row right part-->
+    <div class="topProduct">
+        <div class="textv1">Top Products</div><br>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Popularity</th>
+                <th scope="col">Sales</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">01</th>
+                <td>Home Decor Range</td>
+                <td><div class="progress mt-2">
+                  <div class="progress-bar" role="progressbar" style="width: 45%;background-color:#0095FF;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 55%;background-color:#9dd5fd;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </td>
+                <td><button class="but1">45%</button>
+              </tr>
+              <tr>
+                <th scope="row">02</th>
+                <td>Disney Princess Pink Bag 18'</td>
+                <td><div class="progress mt-2">
+                  <div class="progress-bar" role="progressbar" style="width: 29%;background-color:#00E58F;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 71%;background-color:#c0f8e2;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div></td>
+                <td><button class="but1" style="color: #00E58F;background-color: #c0f8e2;border:1px solid #00E58F;">29%</button></td>
+              </tr>
+              <tr>
+                <th scope="row">03</th>
+                <td>Bathroom Essentials</td>
+                <td><div class="progress mt-2">
+                  <div class="progress-bar" role="progressbar" style="width: 18%;background-color:#884DFF;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 82%;background-color:#d1bbfd;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div></td>
+                <td><button class="but1" style="color:#884DFF;background-color:#d1bbfd;border:1px solid #884DFF;">18%</button></td>
+              </tr>
+              <tr>
+                <th scope="row">04</th>
+                <td>Apple Smartwatches</td>
+                <td><div class="progress mt-2">
+                  <div class="progress-bar" role="progressbar" style="width: 25%;background-color:#FF8900;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 75%;background-color:#f8ce9d;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div></td>
+                <td><button class="but1" style="color:#FF8900;background-color: #f8ce9d;border:1px solid #FF8900;">25%</button></td>
+              </tr>
+            
+            </tbody>
+          </table>
+    </div>
+</div>
+
+<!--third row-->
+
+<div class="ThirdRow">
+   
+
+  <!--colunm second-->
+  <div class="thirdc1">
+       <div class="mainproduct">
+           <div class="textv1">Main Product</div><br>
+                <div class="produp">
+                   <div class="product1">Product-1</div>
+                   <div class="product2">Product-2</div>
+                 </div>
+                 <div class="line"></div>
+
+                 <!--second part-->
+                 <div class="mainprodl">
+                     <div class="mainlimg">
+                         <img src="assets/mainprod.png" alt="image">
+                     </div>
+                     <div class="mainprodr">
+                         <div class="textm1">What is this product??</div>
+                         <div class="textm2">There are many variations of passages of Lorem Ipsum available, 
+                          but the majority have suffered alteration in some form, by injected humour, 
+                          or randomised words which don't look even slightly believable. If you are going to 
+                          use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing 
+                          hidden in the middle of text.</div>
+                          <br>
+                          <div class="butt3">Read More</div>
+                     </div>
+                    </div>
+       </div>
+  </div>
+   
+
+
+
+  <!--colunm second-->
+  <div class="thirdc2">
+    <div class="textv1">Sales Mapping by Country</div><br>
+     <img src="assets/world1.png" alt="map" style="width: 380px;
+     height: 229px;
+     top: 1012px;
+     margin-left: 20px;">
+
+  </div>
+
+  <!--column third-->
+ 
+  <div class="thirdc3">
+    <div class="textv1">Volume vs Service Level</div><br>
+<!--
+    <div class="container">
+
+      <div class="progress progress-bar-vertical" id="bar1">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height: 50%;">  
+        </div>
+      </div>
+      
+        <div class="progress progress-bar-vertical" id="bar2">
+        <div class="progress-bar " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 60%;"></div>
+      </div>
+    
+      <div class="progress progress-bar-vertical" id="bar3">
+        <div class="progress-bar " role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="height: 40%;"></div>
+      </div>
+
+      <div class="progress progress-bar-vertical" id="bar4">
+        <div class="progress-bar " role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="height: 40%;"></div>
+      </div>
+
+      <div class="progress progress-bar-vertical" id="bar5">
+        <div class="progress-bar " role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="height: 40%;"></div>
+      </div>
+
+      <div class="progress progress-bar-vertical" id="bar6">
+        <div class="progress-bar " role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="height: 40%;"></div>
+      </div>
+      <div class="horizontal_line1"></div>
+    </div>-------------->
+
+<div class="container">
+  <div class="barimg1">
+     <img src="assets/bar1.png" alt="bar1">
+  </div>
+  <div class="barimg2">
+     <img src="assets/bar2.png" alt="bar2">
+</div>
+  <div class="barimg3">
+     <img src="assets/bar3.png" alt="bar3">
+</div>
+  <div class="barimg4">
+       <img src="assets/bar4.png" alt="bar4">
+  </div>
+  <div class="barimg5">
+       <img src="assets/bar5.png" alt="bar5">
+  </div>
+  <div class="barimg6">
+      <img src="assets/bar6.png" alt="bar6">
+</div>
+  </div>
+  <div class="horizontal_line1"></div>
+
+    <!--services and volume section-->
+    <div class="lastpart">
+           <div class="volume">
+            <ul>
+               <li><div class="vol1">Volume</div></li>
+            </ul>
+               <div class="vol2">1,135</div>
+           </div>
+           <div class="verticalline"></div>
+           <div class="Services">
+          <ul>
+             <li class="green"><div class="vol1">Services</div></li>
+          </ul>
+             <div class="vol2">635</div>
+           </div>
+    </div>
+    
+    
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>

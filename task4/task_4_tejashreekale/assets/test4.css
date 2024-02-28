@@ -1,0 +1,696 @@
+
+  
+
+.fa-thin[data-count]:after{
+    position:absolute;
+    top:1%;
+    content: attr(data-count);
+    font-size:30%;
+    padding:.6em;
+    border-radius:999px;
+    line-height:.75em;
+    color: white;
+    background:rgba(255,0,0,.85);
+    text-align:center;
+    min-width:2em;
+    font-weight:bold;  
+  }
+
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  
+  h4{
+
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+  }
+  p{
+   
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.fs-4{
+
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0px;
+text-align: left;
+color: black;
+}
+
+.nav-link{
+    color: #737791;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+line-height: 4;
+}
+.pos-f-t{
+    margin-bottom: 10px;
+}
+.sidebar {
+    width: 238px;
+    height: 261px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background-color: #5D5FEF;
+    text-align: center;
+    padding-top: 10px; 
+    margin-left: 30px; 
+}    
+
+.p1{
+   
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+color: white;
+}
+
+.p2{
+font-family: Poppins;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0px;
+color: white;
+width: 200px;
+align-items: center;
+padding-left: 20px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: px;
+}
+.dropdown-menu{
+    position: relative;
+}
+.form-inline .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    width: 513px;
+    height: 60px;
+    border-radius:16px;
+    Padding:2px, 32px, 2px, 24px;
+    Gap:8px;
+   
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.form-control{
+    width: 260px;
+    border: 1px solid #e5e6e7;
+    display: block;
+    padding: 9px 9px 9px 40px;
+    background: transparent url("/assets/search.png") no-repeat 13px;
+}
+
+
+
+/*todays sale*/
+.mainSection{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 1130px;   /*1200*/
+}
+
+.todaySale{
+    width: 877px;
+height: 348px;
+top: 152px;
+left: 377px;
+border-radius: 20px;
+border: 1px;
+background-color: white;
+margin-left: 25px;
+margin-top: 20px;
+}
+
+.text1{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color: black;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.text2{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #737791;
+margin-left: 20px;
+}
+
+.cards{
+    margin-top: 40px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+.card1{
+    width: 180px;
+    height: 184px;
+    top: 132px;
+    left: 32px;
+    border-radius: 16px;
+    background: #FFE2E5;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.c1{
+    
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color: black;
+}
+.c2{
+   
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #425166;
+}
+
+.c3{
+  
+font-family: Poppins;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+color: #4079ED;
+
+}
+
+
+/*visitor*/
+.firstrow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.visitor{
+    width: 569px;
+height: 348px;
+top: 152px;
+left: 1285px;
+border-radius: 20px;
+background-color: white;
+margin-left: 20px;
+margin-top: 20px;
+}
+.textv1{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color:#05004E;
+padding-left: 20px;
+margin-top: 20px;
+}
+
+.parentDiv { 
+    display: block; 
+    width: 530px;
+    height: 56px;
+    top: 228px;
+    left: 1312px;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+} 
+
+/* To set icon at the right side of the div*/ 
+.icon { 
+    margin-left: 10px; 
+    float: right; 
+} 
+
+.textv{
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+ padding-left: 10px;
+}
+
+.parentDiv2 { 
+    display: block; 
+    width: 530px;
+    height: 56px;
+    top: 228px;
+    left: 1312px;
+    border-radius: 5px;
+    margin-left: 20px;
+} 
+
+.textv2{
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+    width: 530px;
+height: 124px;
+top: 352px;
+left: 1313px;
+border-radius: 0px, 0px, 5px, 5px;
+border: 1px solid #5D5FEF;
+padding: 10px;
+
+}
+.visitorlist{
+    width: 648px;
+height: 350px;
+border-radius: 20px;
+background-color: white;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+thead{
+    color: #96A5B8;
+    font-family: Open Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+
+tbody{
+    font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0px;
+text-align: left;
+color: #444A6D;
+
+}
+
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    width: 50px;
+}
+
+.topProduct{
+    width: 802px;
+height: 351px;
+top: 531px;
+left: 1065px;
+border-radius: 20px;
+background-color: white;
+margin-left: 20px;
+margin-top: 20px;
+
+}
+
+.secondrow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+ 
+.but1{
+    border: 1px solid #0095FF;
+    padding: 4px;
+    margin-top: 1px;
+    color: #0095FF;
+    background-color: #c8e8ff;
+    border-radius: 6px; 
+}
+
+.progress{
+    height: 8px;
+}
+
+
+/*third row*/
+/*column first*/
+
+.thirdc1{
+    width: 645px;
+height: 350px;
+top: 917px;
+left: 377px;
+border-radius: 20px;
+border: 1px;
+background-color: white;
+margin-left: 25px;
+}
+
+.thirdc2{
+ width: 421px;
+height: 351px;
+border-radius: 20px;
+background-color: white;
+margin-left: 20px;
+}
+
+.thirdc3{
+    width: 371px;
+height: 349px;
+border-radius: 20px;
+background-color: white;
+margin-left: 20px;
+}
+
+.ThirdRow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.produp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.product1{
+    width: 113px;
+height: 36px;
+top: 997px;
+left: 399px;
+background-color:#5D5FEF;
+color: white;
+text-align: center;
+margin-right: 10px;
+margin-left: 20px;
+padding-top: 5px;
+}
+.product2{
+    padding-top: 5px;
+}
+
+.line{
+    width: 601px;
+    height: 1px;
+    border-top: 1px solid  #EDF2F6;
+    margin-left: 20px;
+}
+
+.mainlimg img{
+    width: 62px;
+height: 62px;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.textm1{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0px;
+}
+.textm2{
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color:  #828282;
+}
+
+.butt3{
+   width: 86px;
+height: 25px;
+border-radius: 2px;
+color: white;
+background-color: #5D5FEF;
+text-align: center;
+}
+
+.mainprodl{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainprodr{
+    margin: 20px;
+}
+/*
+.container{ margin-top: 10px; 
+  margin-left: 30px;
+justify-content: space-around;}
+
+.progress-bar-vertical {
+  width: 10px;
+  min-height: 100px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 20px;
+  float: left;
+}
+
+.progress-bar-vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+
+#bar1{
+    width: 12px;
+height: 138.86px;
+border-radius: 2px;
+}
+#bar2{
+    width: 12px;
+height: 168px;
+border-radius: 2px;
+}
+
+#bar3{
+    width: 12px;
+height: 138.86px;
+top: 1025.14px;
+left: 1658px;
+border-radius: 2px;
+}
+
+#bar4{
+    width: 12px;
+height: 125.14px;
+top: 1038.86px;
+left: 1710px;
+border-radius: 2px;
+}
+#bar5{
+    width: 12px;
+height: 96px;
+top: 1068px;
+left: 1762px;
+border-radius: 2px;
+}
+#bar6{
+    width: 12px;
+height: 104.57px;
+top: 1059.43px;
+left: 1814px;
+border-radius: 2px;
+}
+*/
+.horizontal_line1{
+    width: 368px;
+height: 1px;
+color: #d0d1d1;
+}
+
+.lastpart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.Services{
+    margin-left: 20px;
+}
+
+li::marker{
+    color: #0095FF;
+
+    font-size: 30px;
+}
+
+li.green::marker{
+    color: green;
+}
+
+.vol1{
+font-family: Poppins;
+font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+color: #96A5B8;
+}
+
+.vol2{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+color: black;
+margin-left: 50px;
+}
+
+.verticalline{
+    border: 1px solid rgb(198, 201, 198);
+    width: 1px;
+    height: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+
+/*progress bar-------------------------*/
+
+.barimg1{
+    width: 12px;
+height: 138.86px;
+border-radius: 2px;
+margin-top: 30px;
+
+}
+.barimg2{
+    width: 12px;
+height: 168px;
+border-radius: 2px;
+}
+.barimg3{
+    width: 12px;
+    height: 138.86px;
+    border-radius: 2px;
+    margin-top: 30px;
+    
+}
+.barimg4{
+    width: 12px;
+    height: 125.14px;
+    border-radius: 2px;
+    margin-top: 40px;
+}
+
+.barimg5{
+    width: 12px;
+height: 96px;
+border-radius: 2px;
+margin-top: 70px;
+}
+
+.barimg6{
+    width: 12px;
+height: 104.57px;
+border-radius: 2px;
+margin-top: 70px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.horizontal_line1{
+    border: 1px solid #EDF2F6;
+    width: 368px;
+    margin-top: 10px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
