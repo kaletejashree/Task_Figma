@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+    
+   
+
+    <div class="container-fluid">
+        <div class="container">
+            <form id="form">
+                <div class="row">
+
+                   <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="form-group">
+                        <label for="user">
+                            First Name:
+                        </label>
+                        <input type="text"
+                               name="username"
+                               id="usernames"
+                               class="form-control">
+                        <h5 id="usercheck"
+                            style="color: red;">
+                            **first name cannot be blank
+                        </h5> 
+                    </div>
+                   </div>
+                   <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="form-group">
+                        <label for="lastuser">
+                            Last name:
+                        </label>
+                        <input type="text"
+                               name="lastname"
+                               id="lastnames"
+                               class="form-control">
+                         <h5 id="lastnamecheck"
+                            style="color: red;">
+                            **last name cannot be blank
+                        </h5> 
+                   </div>
+                </div>
+                   <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="form-group">
+                        <label for="dateofbirth">Date Of
+                            Birth</label>
+                        <input type="date" 
+                            id="dateofbirth" required
+                            name="dateofbirth"
+                            placeholder="10/09/2001"
+                            autocomplete="off"
+                            class="form-control">
+                            <h5 id="dobcheck"
+                            style="color: red;">
+                            **Date of Birth cannot be blank
+                        </h5> 
+                    </div>
+                   </div>
+            
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="form-group">
+                            <label for="user">
+                                Email:
+                            </label>
+                            <input type="email"
+                                   name="email"
+                                   id="email" required 
+                                   class="form-control">
+                             <small id="emailvalid"
+                                   class="form-text text-muted invalid-feedback">
+                                Your email must be a valid email
+                            </small> 
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="form-group">
+                            <label for="address">
+                                Address:
+                            </label>
+                            <input type="text"
+                                   name="address"
+                                   id="address" required 
+                                   class="form-control">
+                                 <h5 id="addresscheck"
+                                   style="color: red;">
+                                   **Address cannot be blank
+                               </h5> 
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="form-group">
+                            <label for="graduationyear">Graduation Year</label>
+                            <input type="month" 
+                                id="graduationyear"  required
+                                placeholder="june 2024"
+                                name="graduationyear"
+                                autocomplete="off"
+                                class="form-control">
+                                <h5 id="yearcheck"
+                                style="color: red;">
+                                **year cannot be blank
+                            </h5> 
+                        </div>
+                    </div>
+             
+                 </div>
+                 </form>
+                 </div>
+                 </div>
+
+                 <div class="container-fluid">
+                    <div class="container">
+                        <div class="wrap mt-5 mb-3">
+                            <div class="text1">
+                                <h1>Education Table</h1>
+                            </div>
+                            <button class="btn btn-primary" id="addbtn">Add</button>
+                        </div>
+            
+                    <!--education table-->
+                    <table class="table table-striped mt-5 table-light table-responsive-sm table-responsive-md table-responsive-lg" id="educationTable">
+                        <thead>
+                            <tr>
+                                <th>School</th>
+                                <th >College</th>
+                                <th >Start Year</th>
+                                <th>Graduation year</th>
+                                <th>Backlocks</th>
+                                <th>Action</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="text" name="School" placeholder="N.T.R school"></td>
+                                <td><input type="text" name="College" placeholder="A.B.C college"></td>
+                                <td><input type="month" name="Start" placeholder="june 2015"></td>
+                                <td><input type="month" name="graduation" placeholder="jan 2016"></td>
+                                <td><input type="text" name="Backlocks" placeholder="0"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="School" placeholder="N.T.R school"></td>
+                                <td><input type="text" name="College" placeholder="A.B.C college"></td>
+                                <td><input type="month" name="Start" placeholder="june 2015"></td>
+                                <td><input type="month" name="graduation" placeholder="jan 2016"></td>
+                                <td><input type="text" name="Backlocks" placeholder="0"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="subbtn text-center">
+                        <button class="btn btn-primary" id="submitbtn">Submit</button>
+                    </div>
+
+
+
+
+
+
+                        <!--student table-->
+                        <table class="table table-striped mt-5 table-light table-responsive-sm table-responsive-md table-responsive-lg" id="dataTable">
+                            <thead>
+                                <tr>
+                                    <th>First Name</th>
+                                    <th >Last Name</th>
+                                    <th >Date Of Birth</th>
+                                    <th>Email</th>
+                                    <th>Address</th>
+                                    <th>Graduation Year</th>
+                                    <th>Action</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+               
+                 
+
+    <script src="js/index.js"></script>
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+</body>
+</html>
