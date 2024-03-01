@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Form using jquery</title>
+        <link rel="stylesheet" href="css/index.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css  ">
+
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+       
+        <div class="container-fluid">
+            <div class="container">
+                <div class="wrap mt-5 mb-3">
+                    <div class="text1">
+                        <h1>Student Details</h1>
+                    </div>
+                      <!-- Button trigger modal -->
+                    <button class="btn btn-primary "data-toggle="modal" data-target="#exampleModalLong" id="Add">Add</button>
+                </div>
+
+                <!--student table-->
+                <table class="table table-striped mt-5 table-light table-responsive-sm table-responsive-md table-responsive-lg" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Expand</th>
+                            <th>First Name</th>
+                            <th >Last Name</th>
+                            <th >Date Of Birth</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                            <th>Graduation Year</th>
+                            <th>Action</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                       
+                    </tbody>
+                </table>
+
+
+
+            </div>
+        </div>
+
+
+      
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLongTitle">Student Form</h3>
+          <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <div class="container-fluid">
+            <div class="container">
+                <form id="form">
+                    <div class="row">
+
+                       <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="form-group">
+                            <label for="user">
+                                First Name:
+                            </label>
+                            <input type="text"
+                                   name="username"
+                                   id="usernames"
+                                   class="form-control">
+                            <h5 id="usercheck"
+                                style="color: red;">
+                                **first name cannot be blank
+                            </h5> 
+                        </div>
+                       </div>
+                       <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="form-group">
+                            <label for="lastuser">
+                                Last name:
+                            </label>
+                            <input type="text"
+                                   name="lastname"
+                                   id="lastnames"
+                                   class="form-control">
+                             <h5 id="lastnamecheck"
+                                style="color: red;">
+                                **first name cannot be blank
+                            </h5> 
+                       </div>
+                    </div>
+                       <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="form-group">
+                            <label for="dateofbirth">Date Of
+                                Birth</label>
+                            <input type="date" 
+                                id="dateofbirth" required
+                                name="dateofbirth"
+                                placeholder="10/09/2001"
+                                autocomplete="off"
+                                class="form-control">
+                                <h5 id="dobcheck"
+                                style="color: red;">
+                                **Date of Birth cannot be blank
+                            </h5> 
+                        </div>
+                       </div>
+                
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-12 col-lg-4">
+                            <div class="form-group">
+                                <label for="user">
+                                    Email:
+                                </label>
+                                <input type="email"
+                                       name="email"
+                                       id="email" required 
+                                       class="form-control">
+                                 <small id="emailvalid"
+                                       class="form-text text-muted invalid-feedback">
+                                    Your email must be a valid email
+                                </small> 
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-4">
+                            <div class="form-group">
+                                <label for="address">
+                                    Address:
+                                </label>
+                                <input type="text"
+                                       name="address"
+                                       id="address" required 
+                                       class="form-control">
+                                     <h5 id="addresscheck"
+                                       style="color: red;">
+                                       **Address cannot be blank
+                                   </h5> 
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-4">
+                            <div class="form-group">
+                                <label for="graduationyear">Graduation Year</label>
+                                <input type="month" 
+                                    id="graduationyear"  required
+                                    placeholder="june 2024"
+                                    name="graduationyear"
+                                    autocomplete="off"
+                                    class="form-control">
+                                    <h5 id="yearcheck"
+                                    style="color: red;">
+                                    **year cannot be blank
+                                </h5> 
+                            </div>
+                        </div>
+                 
+                     </div>
+                     <hr style="height:2px;border-width:0;color:rgb(235, 235, 235);background-color:rgb(230, 227, 227)">
+                    
+                     <div class="row">
+                        <div class="container">
+                            <div class="wrap">
+                                <div class="text1"><h1>Education
+                                        : </h1></div>
+                                <button type="button" name="add"
+                                    id="add"
+                                    class="btn btn-dark rounded-circle"><i
+                                        class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <br>
+
+                            <!--table format-->
+                            <table
+                                class="table table-striped table-responsive-sm table-responsive-md table-responsive-lg"
+                                id="educationTable">
+                                <thead>
+                                    <tr>
+
+                                        <th
+                                            class="col-sm-12 col-md-12 col-lg-1"
+                                            scope="col">Degree/Board</th>
+                                        <th
+                                            class="col-sm-12 col-md-12 col-lg-2"
+                                            scope="col">School/College</th>
+                                        <th
+                                            class="col-sm-12 col-md-12 col-lg-2"
+                                            scope="col">Start
+                                            Date</th>
+                                        <th
+                                            class="col-sm-12 col-md-12 col-lg-2"
+                                            scope="col">Passout
+                                            Year</th>
+                                        <th
+                                            class="col-sm-12 col-md-12 col-lg-2"
+                                            scope="col">Percentage</th>
+                                        <th
+                                            class="col-sm-12 col-md-12 col-lg-2"
+                                            scope="col">Backlogs</th>
+                                        <th
+                                            class="col-sm-12 col-md-12 col-lg-1"
+                                            scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="text"
+                                                name="boardname[]"
+                                                placeholder="10th"
+                                                class="form-control name_list" /></td>
+                                        <td><input type="text"
+                                                name="Collegename[]"
+                                                placeholder="N.T.R high school"
+                                                class="form-control college_list" /></td>
+                                        <td><input type="month"
+                                                name="startDate[]"
+                                                placeholder="june/2016"
+                                                class="form-control start_date" /></td>
+                                        <td><input type="month"
+                                                name="Passyear[]"
+                                                placeholder="june/2020"
+                                                class="form-control pass_year" /></td>
+                                        <td><input type="text"
+                                                name="percentage[]"
+                                                placeholder="82.60"
+                                                class="form-control percentage" /></td>
+                                        <td><input type="text"
+                                                name="backlogs[]"
+                                                placeholder="0"
+                                                class="form-control backlog" /></td>
+
+                                    </tr>
+
+                                    <!--second row-->
+                                    <tr>
+
+                                        <td><input type="text"
+                                                name="boardname[]"
+                                                placeholder="12th"
+                                                class="form-control name_list" /></td>
+                                        <td><input type="text"
+                                                name="Collegename[]"
+                                                placeholder="M.E.S school"
+                                                class="form-control college_list" /></td>
+                                        <td><input type="month"
+                                                name="startDate[]"
+                                                placeholder="june/2018"
+                                                class="form-control start_date" /></td>
+                                        <td><input type="month"
+                                                name="Passyear[]"
+                                                placeholder="june/2020"
+                                                class="form-control pass_year" /></td>
+                                        <td><input type="text"
+                                                name="percentage[]"
+                                                placeholder="92.60"
+                                                class="form-control percentage" /></td>
+                                        <td><input type="text"
+                                                name="backlogs[]"
+                                                placeholder="0"
+                                                class="form-control backlog" /></td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <hr
+                                style="height:2px;border-width:0;color:rgb(235, 235, 235);background-color:rgb(230, 227, 227)">
+                                <input type="submit"
+                           id="submitbtn"
+                           value="Submit"
+                           class="btn btn-primary" >
+
+                        </div>
+                    </div>
+
+                    
+     
+                
+     
+                    
+                </form>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+         <!--<div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+      
+
+
+
+    </body>
+    <script src="javascript/task.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.1/js/dataTables.js"> </script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.1/css/dataTables.dataTables.css">
+    </html>
