@@ -1,0 +1,386 @@
+
+
+/*section first*/
+.heading{
+    width:657px;
+    height: 276px;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #4D4D4D; 
+    padding-top:80px;
+    margin-left: 200px;
+    
+}
+.text1{
+    color: #4CAF4F;
+}
+.lead{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #717171;
+}
+.first{
+    background-color: #F5F7FA;
+    height: 599px;
+}
+.image{
+    width: 391px; 
+    height: 407px;
+    padding-top: 10px;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:  #a7e0a9;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 90px;
+  }
+  #active{
+    background-color: #4CAF4F;
+}
+
+.spara1{
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;  
+    color: #4D4D4D;
+}
+.spara2{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color:  #717171;
+}
+
+/*.container{
+   margin-left: 200px;
+   width: 1122px;
+   margin-top: 60px;
+   margin-right: 100px;
+}*/
+.second-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 300px;
+    justify-content: space-between;
+ }
+
+ /*third section*/
+ .cardcontainer{
+    margin-left: 200px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+ }
+.card{
+    width: 299px;
+    height: 280px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    border-radius: 8px;
+    border: none;
+    margin-right: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+    width: 65px;
+height: 56px;
+justify-content: center;
+}
+.card-title{
+font-family: Inter;
+font-size: 28px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+color: #4D4D4D;
+}
+.card-text{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color: #717171;
+}
+.image1{
+    width: 441.53px;
+height: 328.99px;
+top: 52px;
+padding-left: 50px;
+}
+.heading1{
+    width: 601px;
+height: 88px;
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #4D4D4D;
+margin-top: 150px;
+margin-left: 100px;
+}
+.lead1{
+    width: 601px;
+    height: 88px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #717171;
+margin-left: 100px;
+}
+
+.butt{
+    margin-left: 100px;
+}
+
+/*section 5*/
+.five{
+    width: 1,440px;
+height: 288px;
+padding: 64px, 144px, 64px, 144px;
+justify-content: space-between;
+background-color: #F5F7FA;
+
+
+}
+.fivepara1{
+    width: 408px;
+height: 88px;
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 200px;
+padding-top: 50px;
+}
+.greentext{
+    color: #4CAF4F;
+}
+.fivepara2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;  
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.secfirst{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*----------------------------------see how to wrap*******************/
+.rightpart{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 255px 255px;
+    grid-template-rows: 60px 60px;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.number{
+
+font-family: Inter;
+font-size: 28px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+
+color: #4D4D4D;
+}
+.nu1{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: #717171;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+/*section 6*/
+.image2{
+    margin-left: 100px;
+}
+.heading2{
+    width: 601px;
+height: 88px;
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #4D4D4D;
+margin-top: 20px;
+margin-left: 100px;
+}
+.lead2{
+    width: 601px;
+    height: 88px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #717171;
+margin-left: 100px;
+}
+.butto{
+    margin-top: 90px;
+   
+}
+
+/*section seven*/
+.seven{
+    background-color: #F5F7FA;
+    width: 1,440px;
+height: 390px;
+margin-top: 50px;
+
+}
+.image3{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.heading3{
+    width: 748px;height: 324px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;   
+    color: #717171;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.lead3{
+   
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;   
+    color: #4CAF4F;
+    
+}
+.lead4{
+   
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #89939E;
+
+}
+.seven-img{
+  padding-right: 20px;
+}
+.lead5{
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #4CAF4F;
+float: right;
+}
+/*section eight*/
+.lowereight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*section nine*/
+.nine{
+  background-color:#F5F7FA ;  
+height: 300px;
+
+}
+
+.ninep1{
+    width: 887px;
+height: 152px;
+font-family: Inter;
+font-size: 64px;
+font-weight: 600;
+line-height: 76px;
+letter-spacing: 0em;
+text-align: center;
+color: #263238;
+margin-left: 400px;
+padding-top: 20px;
+}
+.nine2{
+    margin-left: 800px;
+    border-radius: 8px;
+    padding-top: 100px;
+    color: #F5F7FA;
+}
+.form-control{
+    width: 260px;
+    border: 1px solid #e5e6e7;
+    display: block;
+    padding: 9px 9px 9px 40px;
+    background: transparent url("assets/Vector.png") no-repeat 13px;
+}
+.foot{
+    color: #F5F7FA;
+}
