@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+}
+
+.right1 img{
+    height: 100px;
+    width: 300px;
+}
+/* nav a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+     font-style: italic;
+     color: black;
+     margin: 5px;
+    
+     text-align: center;
+     justify-content: center;
+}
+
+
+nav button{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+     font-style: italic;
+     color: black;
+}
+
+nav a:hover{
+     color: rgb(59, 117, 234);
+} */
+.btn1{
+    margin-top: 30px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.carousel-indicators button{
+    padding-top: 10px;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+     font-style: italic;
+     color: black;
+}
+.sec2part h1{
+    padding-left: 200px;
+}
+.sec2part p{
+    padding-left: 200px;
+}
+.btn2{
+    margin-left: 200px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+span{
+    color: orange;
+}
+
+.s3item{
+    font-size:30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.s3item:hover .content{
+    background: #F17C21;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    pointer-events: auto;
+}
+.s3item .content{
+    position: absolute;
+    top: 0;
+    background: #F17C21;
+    color: aliceblue;
+    pointer-events: none;
+    width: 90%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.s3item .content a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.container1{
+    position: relative;
+}
+.center{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.full{
+    opacity: 0.5;
+}
+
+.footerlast{
+    width: 100%;
+    height: 300px;
+}
+
+ol li{
+    list-style: none;
+}
+
+
+  /* auto sliding images section second */
+  .container {
+    overflow: hidden;
+    margin-top: 20px;
+    
+    .slider {
+      animation: slidein 10s linear infinite;
+      white-space: nowrap;
+      .logos {
+        width: 100%;
+        display: inline-block;
+        margin: 0px 0;
+        .fab {
+    
+            margin-left: 70px;
+            margin-right: 70px;
+          width: calc(100% / 5);
+          animation: fade-in 0.5s 
+            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        }
+      }
+    }
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .spara1{
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;  
+    color: #4D4D4D;
+}
+.spara2{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color:  #717171;
+}
+
+.pro1{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;   
+}
+.pro2{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(247, 150, 242);   
+}
+
+.upper{
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(150, 181, 247);   
+}
+.ourpr{
+    display: flex;
+    flex-direction: row;
+}
+.parapr
+{
+    font-size: 20px;
+    font-weight: 400; 
+}
+.prright{
+    padding-left: 20px;
+}
+
+.ourpr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .footerlast{ 
+    background-color: rgb(153, 151, 149); 
+    min-height: 200px;
+    min-width: 100%;
+} */
+
+.ani{
+ 
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  { left:100px; top:0px;}
+    50%  {left:100px; top:100px;}
+    75%  { left:0px; top:100px;}
+    100% {left:0px; top:0px;}
+  }
+
+ .last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .foot li{
+    color: black;
+ }
+
+
+/* login page */
+
+/* Style the form container */
+#loginform {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+/* background-color: #f9f9f9; */
+    background-image: linear-gradient(to bottom right, rgb(240, 246, 247), rgb(188, 253, 248));
+}
+
+/* Style form fields */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the button */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+.btn:hover {
+    background-color: #bbd9fa;
+}
+
+/* Style the links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the labels */
+label {
+    font-weight: bold;
+}
+
+/* Style the row */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
