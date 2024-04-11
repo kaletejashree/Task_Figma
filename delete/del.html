@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+<script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="jquery/jquery-3.7.1.js"></script>
+<script src="DataTables (1)/datatables.min.js"></script>
+<link rel="stylesheet" href="DataTables (1)/datatables.min.css">
+<link rel="stylesheet" href="del.css">
+</head>
+<body>
+    
+   <div class="container-fluid">
+    <div class="container">
+        <div class="wrap">
+            <div class="right">
+                <h1>Departmental Data</h1>
+            </div>
+             <!-- Button trigger modal -->
+        <button
+        type="button"
+        class="btn btn-primary btn-lg"
+        data-bs-toggle="modal"
+        data-bs-target="#modalId"
+    >
+        Add
+    </button>
+        </div>
+
+             <table class="table table-striped table-responsive-lg table-responsive-sm table-responsive-md" id="datatable">
+                <thead>
+                    <tr>
+                        <th>Expand</th>
+                        <th>Department Name</th>
+                        <th>Department Description</th>
+                        <th>State</th>
+                        <th>City</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="list">
+                    <tr>
+
+                    </tr>
+                </tbody>
+
+             </table>
+
+
+
+       
+        
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="modalId"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">
+                            Modal title
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                           
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <label for="deptname">Department Name</label>
+                                        <input type="text" id="deptname" placeholder=".net" class="form-control" required>
+                                        <div id="error1" style="display:none ;color: red;">Only alphabets are allow</div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        
+                                        <label for="deptdesc">Department Description</label>
+                                        <input type="text" id="deptdesc" placeholder="web development" class="form-control">
+                                        
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <label for="State">State</label>
+                                        <select id="State" required>
+                                            <option value="Maharashtra">Maharashtra</option>
+                                            <option value="Gujarat">Gujarat</option>
+                                            <option value="Panjab">Panjab</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <label for="City">State</label>
+                                        <select id="City" required>
+                                            <option value="">Select City</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <!--Educational Details-->
+                                <div class="wrap">
+                                    <div class="right">
+                                        <h1>Educational Data</h1>
+                                    </div>
+                                     <!-- Button trigger modal -->
+                                <button
+                                type="button"
+                                class="btn btn-primary btn-lg" onclick="addrow()">
+                                +
+                            </button>
+                                </div>
+
+                                <table class="table table-striped table-responsive-lg table-responsive-sm table-responsive-md">
+
+                                    <thead>
+                                        <tr>
+                                            <th>Employee Name</th>
+                                            <th>Date of birth</th>
+                                            <th>Salary</th>
+                                            <th>Joining Date</th>
+                                            <th>Email</th>
+                                            <th>Address</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="edulist2">
+                                        <tr>
+                                            <td><input type="text" id="empnm" placeholder="aaa" required><div id="errorempnm" style="display:none ;color: red;">Only alphabets are allow</div></td>
+                                            <td><input type="date" id="dob" required ><div id="errorage" style="display:none ;color: red;">Age Should be greater than 18</div></td>
+                                            <td><input type="number" id="salary" placeholder="500000" required><div id="errorsalary" style="display:none ;color: red;">Non negative and non zero number</div></td>
+                                            <td><input type="date" id="joiningdate" required></td>
+                                            <td><input type="email" id="empemail" placeholder="aaa@gmail.com" required><div id="erroremail" style="display:none ;color: red;">Improper Image</div></td>
+                                            <td><input type="text" id="address" placeholder="pune" required></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        
+
+                            </form>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-primary" onclick="submitinfo()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            var modalId = document.getElementById('modalId');
+        
+            modalId.addEventListener('show.bs.modal', function (event) {
+                  // Button that triggered the modal
+                  let button = event.relatedTarget;
+                  // Extract info from data-bs-* attributes
+                  let recipient = button.getAttribute('data-bs-whatever');
+        
+                // Use above variables to manipulate the DOM
+            });
+        </script>
+        
+    </div>
+   </div>
+
+
+
+
+
+
+
+
+    
+    <script src="del.js"></script>
+</body>
+</html>
