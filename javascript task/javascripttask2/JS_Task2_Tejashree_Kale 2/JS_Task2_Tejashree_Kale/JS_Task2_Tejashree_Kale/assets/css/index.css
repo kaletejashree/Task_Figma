@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(159, 197, 241); 
+    background-image: linear-gradient( rgb(159, 197, 241), rgb(247, 250, 250));
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+    background-color: #717171;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    color: #ffff;
+}
+
+.form-control{
+    margin-bottom: 20px;
+    position: relative;
+    fill: none;
+ background-color: transparent;
+    border: none;
+}
+
+.form-control label{
+ display: inline-block;
+}
+.form-control input{
+    width: 100%;
+    border-radius: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 12px;
+}
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+/*on correct data fill show the green*/
+.form-control.success input{
+     border-color: rgb(8, 219, 8);
+}
+
+.form-control.error input{
+    border-color: rgb(250, 2, 2);
+}
+.form-control i{
+    position: absolute;
+    right: 15%;
+    top: 60%;
+    visibility: hidden;
+}
+.form-control.error small{
+     visibility: visible;
+}
+.form-control small{
+    color: rgb(250, 2, 2);
+    margin-top: 5px;
+    position: absolute;
+    visibility: hidden;
+}
+.form-control.success i.fa-circle-check{
+    color: green;
+    visibility: visible;
+}
+.form-control.error i.fa-circle-exclamation{
+    color: rgb(241, 13, 13);
+    visibility: visible;
+}
+
+/*educational table*/
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.modal-content{
+    background-color: rgb(159, 197, 241); 
+    background-image: linear-gradient( rgb(159, 197, 241), rgb(247, 250, 250));
+}
+.modal-dialog {
+     max-width: 90% !important; 
+    margin: 1.75rem auto;
+   
+}

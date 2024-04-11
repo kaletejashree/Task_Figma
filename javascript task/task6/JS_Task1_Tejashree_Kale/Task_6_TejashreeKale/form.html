@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <script type="text/javascript" src="assets/js/form.js"></script> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css  ">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+   <form>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="text1 text-center"><h1>Student Form</h1></div>
+            <br>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <label for="firstName">First Name </label>
+                     <input type="text" class="form-control" id="firstName" placeholder="Krunal">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <label for="lastName">Last Name </label>
+                     <input type="text" class="form-control" id="lastName" placeholder="Dhote">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <label for="BirthDate">Date of Birth </label>
+                     <input type="date" class="form-control" id="BirthDate" value="10/9/2001">
+                </div>
+            </div>
+        
+         <br>
+         <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="krunal.d@shaligraminfotech.com">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <label for="Address">Address </label>
+                     <input type="text" class="form-control" id="Address" placeholder="Amaravati">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <label for="GraduationYear">Graduation Year </label>
+                     <input type="month" class="form-control" id="GraduationYear" placeholder="june/2024">
+            </div>
+         </div>
+         <br>
+         <hr style="height:2px;border-width:0;color:rgb(235, 235, 235);background-color:rgb(230, 227, 227)">
+        </div>
+   
+<div class="container">
+            
+    <div class="wrap">
+        <div class="text1"><h1>Education : </h1></div>
+        <button type="button" name="add" id="add" class="btn btn-dark rounded-circle"><i class="fa-solid fa-plus"></i></button>
+    </div>
+    <br>
+    <table class="table table-striped table-responsive-sm table-responsive-md table-responsive-lg" id="educationTable">
+        <thead>
+            <tr>
+               
+                <th class="col-sm-12 col-md-12 col-lg-1"scope="col">Degree/Board</th>
+                <th class="col-sm-12 col-md-12 col-lg-2" scope="col">School/College</th>
+                <th  class="col-sm-12 col-md-12 col-lg-2" scope="col">Start Date</th>
+                <th class="col-sm-12 col-md-12 col-lg-2" scope="col">Passout Year</th>
+                <th class="col-sm-12 col-md-12 col-lg-2" scope="col">Percentage</th>
+                <th class="col-sm-12 col-md-12 col-lg-2" scope="col">Backlogs</th>
+                <th class="col-sm-12 col-md-12 col-lg-1" scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" name="boardname[]" placeholder="10th" class="form-control name_list" /></td>
+                <td><input type="text" name="Collegename[]" placeholder="N.T.R high school" class="form-control name_email"/></td>
+                <td><input type="month" name="startDate[]" placeholder="june/2016" class="form-control total_amount"/></td>
+                <td><input type="month" name="Passyear[]" placeholder="june/2020" class="form-control pass_year"/></td>
+                <td><input type="text" name="percentage[]" placeholder="82.60" class="form-control percentage" /></td>
+                <td><input type="text" name="backlogs[]" placeholder="0" class="form-control backlog" /></td>
+               
+            </tr>
+
+            <!--second row-->
+            <tr>
+               
+                <td><input type="text" name="boardname[]" placeholder="12th" class="form-control name_list" /></td>
+                <td><input type="text" name="Collegename[]" placeholder="M.E.S school" class="form-control name_email"/></td>
+                <td><input type="month" name="startDate[]" placeholder="june/2018" class="form-control total_amount"/></td>
+                <td><input type="month" name="Passyear[]" placeholder="june/2020" class="form-control pass_year"/></td>
+                <td><input type="text" name="percentage[]" placeholder="92.60" class="form-control percentage" /></td>
+                <td><input type="text" name="backlogs[]" placeholder="0" class="form-control backlog" /></td>
+                
+            </tr>
+        </tbody>
+    </table>
+               <hr style="height:2px;border-width:0;color:rgb(235, 235, 235);background-color:rgb(230, 227, 227)">
+               <div class="container "></div>
+               <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 ">
+                    <div class="text-center">
+               <button type="button" id="submitBtn" onclick="submitAndDisplayInfo()" class="btn btn-outline-grey " style="background-color: #717171;color: white;">Submit</button><br><br>
+            </div>
+               <div id="displayInfo"></div>
+               <div id="displayData"></div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+              
+        </div>  
+    </div>
+ </div>  
+ 
+   </form>
+
+   <script src="assets/js/form.js"></script>    
+</body>
+</html>
